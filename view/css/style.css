@@ -66,4 +66,57 @@
     margin-right: 15%;
     text-align: center;
     width:  350px;
+    background: transparent;
+   
 }
+
+.card-text{
+    font-size: 18px;
+    color: white;
+}
+
+.card-title{
+    font-size: 25px;
+    color: white;
+}
+
+/*____________HEADER_____________*/
+.body{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-color:black;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.navbar{
+    background-color: red;
+    border-radius: 20px;
+
+}
+
+.navbar-brand{
+    text-anchor: rgb(255, 255, 255);
+    
+}
+
+#pg{
+    color: black;
+}
+
+#gp{
+    transform: translateX(-50%);
+    margin-top: 50%;
+}
+
+.sla{
+    margin-left: 10px;
+}
+
+#sair{
+    margin-left: 900px;
+}
+

@@ -13,7 +13,7 @@ if($acesso === $emailusu){
     var_dump ($acesso);
 }
 
-if($emailusu === 'administrador@gmail.com'){
+if($emailusu === 'funcionario@gmail.com' & $senhausu === 'senha123'){
     header("Location:../view/cadastrofilme.php");
 }else{
     //header("Location:../view/login.php");

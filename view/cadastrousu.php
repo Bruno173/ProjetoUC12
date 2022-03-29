@@ -28,6 +28,7 @@
                 <label for="inputemail" class="form-label">Email</label>
                 <input type="email" name="emailusu" class="form-control" id="inputemail" required>
             </div>
+            
             <div class="col-md-3">
                 <label for="inputsenha" class="form-label">DIGITA A SENHA DE ACESSO </label>
                 <input type="password" name="senhausu" class="form-control" id="inputsenha" placeholder="senha" required>

@@ -7,7 +7,7 @@
     <title>Cadastro filme</title>
 </head>
 <div class=container>
-    <form class="row g-3" action="../controler/inserirfilme.php" method="Get">
+    <form class="row g-3" action="../controler/inserirfilme.php" method="Post" enctype="multipart/form-data">
         <div class="col-md-5">
             <label for="inputnome" class="form-label">Nome do filme</label>
             <input type="text" name="nomefilme" class="form-control" id="inputnome" required>

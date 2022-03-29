@@ -8,14 +8,21 @@ return $dados;
 
 function visufilmenome($conn, $nomefilme)
 {
-    $query = "select * from tbusuario where nomeusu like '%{$nomefilme}%'";
+    $query = "select * from tbfilme where nomefilme like '%{$nomefilme}%'";
     $resultado = mysqli_query($conn, $query);
     return $resultado;
 };
 
 function visufilmegenero($conn, $generofilme)
 {
-    $query = "select * from tbusuario where nomeusu like '%{$generofilme}%'";
+    $query = "select * from tbfilme where nomefilme like '%{$generofilme}%'";
+    $resultado = mysqli_query($conn, $query);
+    return $resultado;
+};
+
+function visuimgfilme($conn,$imgfilme)
+{
+    $query = "select * from tbfilme where name like '%{$imgfilme}%'";
     $resultado = mysqli_query($conn, $query);
     return $resultado;
 };
