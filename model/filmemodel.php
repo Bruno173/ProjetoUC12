@@ -15,15 +15,16 @@ function visufilmenome($conn, $nomefilme)
 
 function visufilmegenero($conn, $generofilme)
 {
-    $query = "select * from tbfilme where nomefilme like '%{$generofilme}%'";
+    $query = "select * from tbfilme where generofilme = '{$generofilme}'";
     $resultado = mysqli_query($conn, $query);
     return $resultado;
 };
 
 function visuimgfilme($conn,$imgfilme)
 {
-    $query = "select * from tbfilme where name like '%{$imgfilme}%'";
+    $query = "select * from tbfilme where imgfilme like '%{$imgfilme}%'";
     $resultado = mysqli_query($conn, $query);
+
     return $resultado;
 };
 

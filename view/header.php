@@ -22,16 +22,15 @@
 
                     <li class="nav-item dropdown">
                         </a>
-                    <li><a id="acao" class="dropdown-item" class="pg" class="sla" href="../view/visuacao.php">Ação</a></li>
-                    <li><a id="comedia" class="dropdown-item" class="pg" class="sla" href="../view/visucomedia.php">Comédia</a></li>
-                    <li><a id="desenho" class="dropdown-item" class="pg" class="sla" href="../view/visudesenho.php">Desenho</a></li>
-                    <li><a id="terror" class="dropdown-item" class="pg" class="sla" href="../view/visuterror.php">Terror</a></li>
+                    <li><a id="acao" class="dropdown-item" class="sla" href="../view/visufilmegenero.php?generofilme=acao">Ação</a></li>
+                    <li><a id="comedia" class="dropdown-item" class="sla" href="../view/visufilmegenero.php?generofilme=comedia">Comédia</a></li>
+                    <li><a id="desenho" class="dropdown-item" class="sla" href="../view/visufilmegenero.php?generofilme=desenho">Desenho</a></li>
+                    <li><a id="terror" class="dropdown-item" class="sla" href="../view/visufilmegenero.php?generofilme=terror">Terror</a></li>
                     <div id="sair">
-                    <li><a  class="dropdown-item" href="../view/login.php">sair</a></li>
+                        <li><a class="dropdown-item" href="../view/login.php">sair</a></li>
                     </div>
                 </ul>
                 </li>
-
                 </ul>
 
             </div>

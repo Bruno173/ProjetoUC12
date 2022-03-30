@@ -17,10 +17,10 @@
             <label for="inputZip" class="form-label">Gênero do filme</label required>
             <select id=generofilme name="generofilme" class="form-select">
                 <option selected>escolha...</option>
-                <option value="Acao">Ação</option>
-                <option value="Terror">Comédia</option>
-                <option value="Esporte">Desenho</option>
-                <option value="RPG">Terror</option>
+                <option value="acao">Ação</option>
+                <option value="comedia">Comédia</option>
+                <option value="desenho">Desenho</option>
+                <option value="terror">Terror</option>
             </select>
         </div>
 
